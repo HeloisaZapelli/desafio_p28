@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+}
+.container {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.fade {
+    display: none;
+}
+
+.fade img {
+    width: 100%;
+    height: auto;
+}
+
+.n_text {
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.i_text {
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.dot_box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #717171;
+}

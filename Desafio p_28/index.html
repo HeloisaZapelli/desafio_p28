@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> As Praias mais bonitas de SP</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/carrossel.js" defer></script>
+    </head>
+    <body>
+        <h1>Praias que vale a pena conhecer em São Paulo!</h1>
+       
+        <div class="container">
+
+            <div class="fade">
+                <div class="n_text">1 / 5</div>
+                <img src="img/domingas_dias.jpg">
+                <div class="i_text">Praia Domingas Dias, Ubatuba</div>
+            </div>
+            <div class="fade">
+                <div class="n_text">2 / 5</div>
+                <img src="img/juquehy_saosebastiao.jpg">
+                <div class="i_text">Praia de Juquehy, São Sebastião</div>
+            </div>
+            <div class="fade">
+                <div class="n_text">3 / 5</div>
+                <img src="img/as_ilhas_saosebastiao.jpg">
+                <div class="i_text">As Ilhas, São Sebastião</div>
+            </div>
+            <div class="fade">
+                <div class="n_text">4 / 5</div>
+                <img src="img/Praia_da_jureia_saosebastiao.jpg">
+                <div class="i_text">Praia da Jureia, São Sebastião</div>
+            </div>
+            <div class="fade">
+                <div class="n_text">5 / 5</div>
+                <img src="img/castelhanosilhabela.jpg">
+                <div class="i_text">Praia de Castelhanos, Ilhabela</div>
+            </div>
+            <a class="prev" onclick="plus_slides(-1)">&#10094;</a>
+            <a class="next" onclick="plus_slides(1)">&#10095;</a>
+        </div>
+        <div class="dot_box">
+            <span class="dot" onclick="current_slides(1)"></span>
+            <span class="dot" onclick="current_slides(2)"></span>
+            <span class="dot" onclick="current_slides(3)"></span>
+            <span class="dot" onclick="current_slides(4)"></span>
+            <span class="dot" onclick="current_slides(5)"></span>
+        </div>
+    </body>
+</html>
